@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .container{
+            width: 500px;
+            height: 500px;
+    
+            margin: auto ;
+            position: relative;
+            top: 50px;
+          }
+          h2{
+            position: relative;
+            top: 10px;
+            left: 80px;
+            color: red;
+          }
+          #asd{
+            position:relative;
+            left: 100px;
+            top: 30px;
+            color : red;
+            
+          }
+          #btn{
+            position: relative;
+            left: 70px;
+            border: 1px solid red;
+            border-radius: 4px;
+            color: red;
+          }
+          #btn:hover{
+            background-color: yellow;
+          }
+
+          .ap{
+            background-image: url('SL_123119_26540_26.jpg');
+            background-size: cover;
+            height: 1000px;
+          }
+    </style>
+</head>
+<body>
+    <div class="ap">
+    <div class="container">
+         <h2>Log in for Live Music account</h2>
+         <div id="asd">
+            <div>
+         Name : <input type="text">
+            </div>
+            <br>
+
+            <div>
+                Email ID : <input type="text">
+            </div>
+            <br>
+            <div>
+                Password : <input type="text">
+            </div>
+            <br>
+            <div>
+                <button id="btn">Submit</button>
+            </div>
+         </div>
+    </div>
+    </div>
+    <script>
+          var a = document.getElementById('btn');
+          a.addEventListener('click', ()=>{
+               alert('you are loged in');
+          })
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE MUSIC WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="SL_123119_26540_26.jpg" alt="abc"><span>Live Music</span></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about"> About</a></li>
+            <li><a href="/contact.html"> contact </a></li>
+            <li><a href="/services.html"> services</a></li>
+            <li id="log"><a href="/log_in.html"> Log in</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Play songs on Live Music.</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">5:30  <i id="0"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">5:46  <i id="1"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">7:30  <i id="2"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">4:30  <i id="3"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">5:20  <i id="4"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">4:30  <i id="5"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="istockphoto-486440133-612x612.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"> <span class="tt">4:36  <i id="6"  class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="download.gif" alt=""  id="gif"><span id="msn"></span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/12355ce66b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
